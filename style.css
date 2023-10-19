@@ -1,0 +1,38 @@
+ /*Comentario se escribe diagonal y asterisco*/
+ /*aqui se va a cambiar el fondo de la pagina*/
+ body {
+      background-color: #ffc8dd;
+      /*Para poner clave de color como arriba, debes de poner un # para que salga*/
+      /*Luego de esta linea va el tipo de letra que quieres con font family, ya sea transportado de google o la prederterminada*/
+      font-family: 'Frank Ruhl Libre', serif;
+      padding: 5px;
+      margin: 1;
+    }
+    h1{
+      color:#f22d9dd3 ;
+    }
+    h4{
+      color: #369a45ea ;
+    }
+    h3{
+      color:#2991f3cf ;
+    }
+    h2{
+      color:#c46cf6 ;
+    }
+    .portada-page{width: 25% ; border-radius: 10px;}
+    .hija-de{width: 18%; border-radius: 10px;}
+    .orgullo{width: 20% ; border-radius: 10px;}
+    .cementerio{width: 20% ;  border-radius: 10px;}
+    .cien{width: 20%; border-radius: 10px;}
+    .psico{width: 20% ; border-radius: 10px;}
+    .zombie{width: 18% ; border-radius: 10px;}
+    .pug{width: 24% ; border-radius: 10px;}
+    .libro-rosa{width: 20%; border-radius: 10px;}
+    .flores{width: 20%; border-radius: 10px;}
+    .auto{width: 20%; border-radius: 10px;}
+body{border: 3px dotted #ffee55e9;}
+.title1{font-family:Georgia, 'Times New Roman', Times, serif}
+.indi{color: #fd10ddfc;}
+.indice{color: rgb(255, 145, 11);}
+.mas{color: red;}
