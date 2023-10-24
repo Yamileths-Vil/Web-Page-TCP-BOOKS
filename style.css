@@ -1,5 +1,6 @@
  /*Comentario se escribe diagonal y asterisco*/
  /*aqui se va a cambiar el fondo de la pagina*/
+ 
  body {
       background-color: #ffc8dd;
       /*Para poner clave de color como arriba, debes de poner un # para que salga*/
@@ -20,19 +21,138 @@
     h2{
       color:#c46cf6 ;
     }
-    .portada-page{width: 25% ; border-radius: 10px;}
-    .hija-de{width: 18%; border-radius: 10px;}
-    .orgullo{width: 20% ; border-radius: 10px;}
-    .cementerio{width: 20% ;  border-radius: 10px;}
-    .cien{width: 20%; border-radius: 10px;}
-    .psico{width: 20% ; border-radius: 10px;}
-    .zombie{width: 18% ; border-radius: 10px;}
-    .pug{width: 24% ; border-radius: 10px;}
-    .libro-rosa{width: 20%; border-radius: 10px;}
-    .flores{width: 20%; border-radius: 10px;}
-    .auto{width: 20%; border-radius: 10px;}
+    p{
+      text-align: center;
+    }
+    main .portada-page{width: 25% ; border-radius: 10px; margin-left: 450px ;}
+    main .hija-de{width: 18%; border-radius: 10px;  margin-left: 450px}
+    .orgullo{width: 20% ; border-radius: 10px; margin-left: 450px}
+    .cementerio{width: 20% ;  border-radius: 10px; margin-left: 450px}
+    .cien{width: 20%; border-radius: 10px; margin-left: 450px}
+    .psico{width: 20% ; border-radius: 10px; margin-left: 450px}
+    .zombie{width: 18% ; border-radius: 10px; margin-left: 450px}
+    .pug{width: 24% ; border-radius: 10px; margin-left: 450px;}
+    .libro-rosa{width: 20%; border-radius: 10px;margin-left: 450px;margin-top: 10px;}
+    .flores{width: 20%; border-radius: 10px;margin-left: 450px;margin-top: 10px;}
+    .auto{width: 20%; border-radius: 10px;margin-left: 450px; margin-top:10px }
 body{border: 3px dotted #ffee55e9;}
 .title1{font-family:Georgia, 'Times New Roman', Times, serif}
 .indi{color: #fd10ddfc;}
 .indice{color: rgb(255, 145, 11);}
 .mas{color: red;}
+
+/*A PARTIR DE AQUI EMPEZARE A DARLE FORMA A LA PAG*/
+.title1{
+  display: flex;
+  justify-content: center;
+}
+header .indice{
+  display: flex;
+  display: flex;
+  justify-content: center;
+}
+header .nav-sec{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+header .nav-sec a{
+  margin-right: 20px; 
+}
+main .fantasiaa{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+
+}
+main .hiji{
+  display: flex;
+  justify-content: center;
+}
+main .nov{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+
+}
+main .orgu{
+  display: flex;
+  justify-content: center;
+}
+main .terr{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+main .cementer{
+  display: flex;
+  justify-content: center;
+}
+main .cienci{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+main .the{
+  display: flex;
+  justify-content: center;
+}
+main .mistery{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+main .elpsi{
+  display: flex;
+  justify-content: center;
+}
+main .com{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+main .marv{
+  display: flex;
+  justify-content: center;
+}
+main .libri{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+
+}
+main .mas{
+  justify-content: flex-end;
+  display: flex;
+
+}
+main form .p-form{
+  justify-content: flex-start;
+  display: flex;
+}
+section .p-form{
+  margin-left: 350px;
+  margin-top: 10px;
+}
+section .p-form1{
+  margin-left: 480px;
+  margin-bottom: 15px;
+}
+/*section .p-form2{
+  margin-left: ;
+}*/
+main .p-form-res1{
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+main .p-form-res{
+  margin-left: 520px;
+  margin-bottom: 1px;
+}
+main .p-form-cont1{
+  margin-top: 10px;
+}
+main .conte-final{
+  margin-left: 450px;
+  margin-bottom: 1px;
+}
